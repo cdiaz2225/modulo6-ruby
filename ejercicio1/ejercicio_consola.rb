@@ -9,7 +9,7 @@ puts "hola compuesto  #{nombre_usuario}"
 
 puts "¿Que edad tienes?"
 edad=gets.chomp
-if  edad
+if  edad=="40"
     puts "Ya eres maduro"
 else
     puts "Aún eres un Bebé"
