@@ -38,14 +38,13 @@
  
 # minimo = 0
 # maximo = 0
-# cantidad =0 
+# cantidad = 0 
 # puts "Ingrese numero minimo: "
 # minimo = gets.chomp.to_i
 # puts "Ingrese numero maximo: "
 # maximo = gets.chomp.to_i
 # puts "Ingrese cantidad sorteos: "
 # cantidad = gets.chomp.to_i
- 
 # for i in 1..cantidad
 #     puts "Resultado sorteo #{​​​​​​​​i}​​​​​​​​ :  #{​​​​​​​​rand(minimo..maximo)}​​​​​​​​"
 # end
@@ -53,19 +52,19 @@
 #3 FACTORIAL
 factorial = 0
 acum = 1
-operacion =""
+operacion = ""
 puts"Ingrese numero n para factorial : "
 factorial = gets.chomp.to_i
-for i in1..factorial
-    acum = i*acum
-if i< factorial
-     operacion += "#{​​​​​​​​i}​​​​​​​​ * "
-else
-     operacion += "#{​​​​​​​​i}​​​​​​​​ = "
-break
+for i in 1..factorial
+acum = i*acum
+#      if i < factorial
+#           operacion += "#{​​​​​​​​i}​​​​​​​​ * "
+#      else
+#           operacion += "#{​​​​​​​​i}​​​​​​​​ = "
+#           break
+#      end
 end
-end
-puts" El factorila de : #{​​​​​​​​factorial}​​​​​​​​"
-puts"#{​​​​​​​​operacion}​​​​​​​​#{​​​​​​​​acum}​​​​​​​​"
+#puts " El factorial de: #{​​​​​​​​factorial}​​​​​​​​"
+#puts"#{​​​​​​​​operacion}​​​​​​​​ #{​​​​​​​​acum}​​​​​​​​"
 
 
