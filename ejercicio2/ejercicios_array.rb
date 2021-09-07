@@ -44,3 +44,10 @@ lista_de_numeros.each do |evaluar|
         print "|#{evaluar} es impar| ".ljust(15)
     end
 end
+
+
+#Ejercicio 4 
+
+puts "Ingrese Oración"
+oracion = gets.chomp
+puts "==>> Palabras totales #{oracion.split(" ").count}"
