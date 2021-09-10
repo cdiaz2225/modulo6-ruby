@@ -114,7 +114,7 @@ puts "OPCION BANCO"
 puts "Ingrese monto a retirar"
 monto=gets.to_f
 puts "Ingrese Saldo"
-saldo=gest.to_f
+saldo=gets.to_f
 if monto % 5 ==0 and (monto+0.5)<=saldo
     saldo -=  (monto+0.5)
     puts "su nuevo saldo es #{saldo}"
@@ -126,10 +126,28 @@ end
 end
 
 def sumainterior
-
+system("clear")
+suma=0
+puts "Ingrese número"
+digitos=gets.to_i
+if digitos<0
+    digitos*=-1
+    digitos.digits.each do |n|
+    suma += n
+    end
+    suma*=-1
+else
+    digitos.digits.each do |n|
+    suma += n
+    end
+end
+puts suma
+puts "Presione Enter para continuar"
+gets
 end
 
 def capicua
+    
 end
 
 menu
