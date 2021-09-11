@@ -1,8 +1,5 @@
-require_relative 'modulo_usuarios'
-require_relative 'modulo_impresiones'
+require_relative 'modulo_menu'
 
-include ModuloUsuarios
-include ModuloImpresiones
 include Extras
 
 menu_usuario
